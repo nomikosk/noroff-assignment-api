@@ -142,10 +142,10 @@
 			]
 		}
 	],
-	"user": {
+	"user": [{
 		"id": 0,
 		"name": "Nomikos Kampourakis",
-		" projects": [{
+		"projects": [{
 				"id": 2,
 				"title": "Project 3",
 				"topic": {
@@ -210,5 +210,5 @@
 			}
 		],
 		"aboutMe": "AEK Athens:Established in Athens, in 1924 by Greek refugees from Constantinople, AEK is one of the three most successful teams in Greek football, winning 30 national titles and the only one to have won all the competitions organised by the Hellenic Football Federation."
-	}
+	}]
 }
