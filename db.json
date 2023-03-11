@@ -1,15 +1,51 @@
 {
-  "trivia": [
-    {
-      "id": 1,
-      "username": "dewaldels",
-      "highScore": 0
+  "skills": [
+    { 
+      "id": 0, 
+      "name": "Rock" 
+    },
+    { 
+      "id": 1, 
+      "name": "Metal" 
+    },
+    { 
+      "id": 2, 
+      "name": "Dance" 
+    },
+    { 
+      "id": 3, 
+      "name": "House Music" 
+    },
+    { 
+      "id": 4, 
+      "name": "Trance" 
+    },
+    { 
+      "id": 5, 
+      "name": "Folk dance"
     },
     {
-      "username": "gingerbread",
-      "highScore": 0,
-      "id": 2
-    }
+      "id": 6, 
+      "name": "Jazz" 
+    },
+  ],
+  "topics": [
+    { 
+      "id": 0, 
+      "name": "Music" 
+    },
+    { 
+      "id": 1, 
+      "name": "Film" 
+    },
+    { 
+      "id": 2, 
+      "name": "Web development" 
+    },
+    {
+      "id": 3, 
+      "name": "Game development" 
+    },
   ],
   "translations": [
     {
@@ -21,123 +57,156 @@
       ]
     }
   ],
-  "trainers": [
-    {
-      "id": 1,
-      "username": "ash",
-      "pokemon": [
-        "bulbasaur",
-        "pikachu"
-      ]
-    }
+ "projects": [
+  {
+    "id:" 0,
+    "title:" "Project 1 ",
+    "topic":{ 
+                "id": 0, 
+                "name": "Music" 
+              }
+    "stage": "Completed",
+    "repository": "https://gitlab.com/",
+    "purpose": "For a better life" ,
+    "owner": "Tripodis",
+    "skills": [{ 
+                  "id": 0, 
+                  "name": "Rock" 
+                },
+                { 
+                  "id": 1, 
+                  "name": "Metal" 
+                }],
+  },
+  {
+    "id:" 1,
+    "title:" "Project 2 ",
+    "topic":{ 
+                "id": 1, 
+                "name": "Film" 
+              }
+    "stage": "In progress",
+    "repository": "https://gitlab.com/",
+    "purpose": "For a better life" ,
+    "owner": "Nomikos",
+    "skills": [{ 
+                  "id": 2, 
+                  "name": "Dance" 
+                },
+                { 
+                  "id": 3, 
+                  "name": "House music" 
+                }],
+  },
+  {
+    "id:" 2,
+    "title:" "Project 3 ",
+    "topic":{ 
+                "id": 2, 
+                "name": "Web development" 
+              }
+    "stage": "In progress",
+    "repository": "https://gitlab.com/",
+    "purpose": "For a better life" ,
+    "owner": "Tzafilkos",
+    "skills": [{ 
+                  "id": 1, 
+                  "name": "Metal" 
+                },
+                { 
+                  "id": 4, 
+                  "name": "Trance" 
+                }],
+  },
+  {
+    "id:" 3,
+    "title:" "Project 4 ",
+    "topic":{ 
+                "id": 3, 
+                "name": "Game development" 
+              }
+    "stage": "In progress",
+    "repository": "https://gitlab.com/",
+    "purpose": "For a better life" ,
+    "owner": "Pegias",
+    "skills": [{ 
+                  "id": 1, 
+                  "name": "Metal" 
+                },
+                { 
+                  "id": 4, 
+                  "name": "Trance" 
+                },
+              { 
+                  "id": 5, 
+                  "name": "Folk dance" 
+                }],
+  },
+ "user": {
+  "id": 0,
+  "name": "Nomikos Kampourakis",
+ " projects": [{
+                "id:" 2,
+                "title:" "Project 3 ",
+                "topic":{ 
+                            "id": 2, 
+                            "name": "Web development" 
+                          }
+                "stage": "In progress",
+                "repository": "https://gitlab.com/",
+                "purpose": "For a better life" ,
+                "owner": "Tzafilkos",
+                "skills": [{ 
+                              "id": 1, 
+                              "name": "Metal" 
+                            },
+                            { 
+                              "id": 4, 
+                              "name": "Trance" 
+                            }],
+              },
+              {
+                "id:" 3,
+                "title:" "Project 4 ",
+                "topic":{ 
+                            "id": 3, 
+                            "name": "Game development" 
+                          }
+                "stage": "In progress",
+                "repository": "https://gitlab.com/",
+                "purpose": "For a better life" ,
+                "owner": "Pegias",
+                "skills": [{ 
+                              "id": 1, 
+                              "name": "Metal" 
+                            },
+                            { 
+                              "id": 4, 
+                              "name": "Trance" 
+                            },
+                          { 
+                              "id": 5, 
+                              "name": "Folk dance" 
+                            }],
+                  }
   ],
-  "users": [
-    {
-      "id": 1,
-      "username": "mrbeta",
-      "favourites": []
-    }
-  ],
-  "guitars": [
-    {
-      "id": "916E597F-C629-4306-BD31-BBF767D9A8AA",
-      "model": "Telecaster Thinline Original '60s",
-      "manufacturer": "Fender",
-      "bodyType": "Semi-Hollow",
-      "materials": {
-        "neck": "Maple",
-        "fretboard": "Maple (Coated)",
-        "body": "Mahogany"
-      },
-      "strings": 6,
-      "image": "https://www.fmicassets.com/Damroot/ZoomJpg/10001/0110172834_gtr_frt_001_rr.jpg"
+  "skills": [{ 
+      "id": 0, 
+      "name": "Rock" 
     },
-    {
-      "id": "CFC91368-9BD8-4AA5-BB85-9D5716A93FE3",
-      "model": "Player Stratocaster",
-      "manufacturer": "Fender",
-      "bodyType": "Solid",
-      "materials": {
-        "neck": "Maple",
-        "fretboard": "Maple (Coated)",
-        "body": "Alder"
-      },
-      "strings": 6,
-      "image": "https://www.fmicassets.com/Damroot/LgJpg/10001/0144502500_gtr_frt_001_rr.jpg"
+    { 
+      "id": 1, 
+      "name": "Metal" 
     },
-    {
-      "id": "60DB75A5-CB6D-4459-A1A7-F8CA287A396C",
-      "model": "American Professional Jazzmaster",
-      "manufacturer": "Fender",
-      "bodyType": "Solid",
-      "materials": {
-        "neck": "Maple",
-        "fretboard": "Rosewood",
-        "body": "Alder"
-      },
-      "strings": 6,
-      "image": "https://www.fmicassets.com/Damroot/ZoomJpg/10001/0113970700_fen_ins_frt_1_rr.jpg"
+    { 
+      "id": 2, 
+      "name": "Dance" 
     },
-    {
-      "id": "D0CBF912-80A2-47C6-8EE7-5C598B996FF3",
-      "model": "Parallel Universe Maverick",
-      "manufacturer": "Fender",
-      "bodyType": "Solid",
-      "materials": {
-        "neck": "Maple",
-        "fretboard": "Ebony",
-        "body": "Alder"
-      },
-      "strings": 6,
-      "image": "https://www.fmicassets.com/Damroot/ZoomJpg/10001/0176741716_gtr_frt_001_rr.jpg"
-    },
-    {
-      "id": "E538B674-0E69-4D0B-80C1-C13B999C7629",
-      "model": "Les Paul Standard '50s",
-      "manufacturer": "Gibson",
-      "bodyType": "Solid",
-      "materials": {
-        "neck": "Mahogany",
-        "fretboard": "Rosewood",
-        "body": "Mahogany"
-      },
-      "strings": 6,
-      "image": "https://static.gibson.com/product-images/USA/USAUBC849/Gold%20Top/front-banner-1600_900.png"
-    },
-    {
-      "id": "2783989F-B771-4B20-B875-F0B39B4D4268",
-      "model": "SG Special",
-      "manufacturer": "Gibson",
-      "bodyType": "Solid",
-      "materials": {
-        "neck": "Mahogany",
-        "fretboard": "Rosewood",
-        "body": "Mahogany"
-      },
-      "strings": 6,
-      "image": "https://static.gibson.com/product-images/USA/USAPAH661/Vintage%20Cherry/front-banner-1600_900.png"
-    }
-  ],
-  "coffee": [
-    {
-      "id": 1,
-      "username": "dewaldels",
-      "orders": [
-        "Large Americano, no sugar, no milk", 
-        "Regular Cappuccino, no sugar",
-        "Small Decaf, no sugar, no milk"
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "id": 1,
-      "question": "What's the answer?",
-      "answer": "It's always been 42",
-      "tags": ["general", "react", "test"],
-      "askedBy": "dewald",
-      "createdAt": "2021-12-01 14:00",
-      "active": true
-    }
-  ]
+    { 
+      "id": 3, 
+      "name": "House Music" 
+    }],
+  "aboutMe":
+    "AEK Athens:Established in Athens, in 1924 by Greek refugees from Constantinople, AEK is one of the three most successful teams in Greek football, winning 30 national titles and the only one to have won all the competitions organised by the Hellenic Football Federation.",
+}
 }
