@@ -1,212 +1,214 @@
 {
-  "skills": [
-    { 
-      "id": 0, 
-      "name": "Rock" 
-    },
-    { 
-      "id": 1, 
-      "name": "Metal" 
-    },
-    { 
-      "id": 2, 
-      "name": "Dance" 
-    },
-    { 
-      "id": 3, 
-      "name": "House Music" 
-    },
-    { 
-      "id": 4, 
-      "name": "Trance" 
-    },
-    { 
-      "id": 5, 
-      "name": "Folk dance"
-    },
-    {
-      "id": 6, 
-      "name": "Jazz" 
-    },
-  ],
-  "topics": [
-    { 
-      "id": 0, 
-      "name": "Music" 
-    },
-    { 
-      "id": 1, 
-      "name": "Film" 
-    },
-    { 
-      "id": 2, 
-      "name": "Web development" 
-    },
-    {
-      "id": 3, 
-      "name": "Game development" 
-    },
-  ],
-  "translations": [
-    {
-      "id": 1,
-      "username": "dewaldels",
-      "translations": [
-        "hello world",
-        "react is fun"
-      ]
-    }
-  ],
- "projects": [
-  {
-    "id:" 0,
-    "title:" "Project 1 ",
-    "topic":{ 
-                "id": 0, 
-                "name": "Music" 
-              }
-    "stage": "Completed",
-    "repository": "https://gitlab.com/",
-    "purpose": "For a better life" ,
-    "owner": "Tripodis",
-    "skills": [{ 
-                  "id": 0, 
-                  "name": "Rock" 
-                },
-                { 
-                  "id": 1, 
-                  "name": "Metal" 
-                }],
-  },
-  {
-    "id:" 1,
-    "title:" "Project 2 ",
-    "topic":{ 
-                "id": 1, 
-                "name": "Film" 
-              }
-    "stage": "In progress",
-    "repository": "https://gitlab.com/",
-    "purpose": "For a better life" ,
-    "owner": "Nomikos",
-    "skills": [{ 
-                  "id": 2, 
-                  "name": "Dance" 
-                },
-                { 
-                  "id": 3, 
-                  "name": "House music" 
-                }],
-  },
-  {
-    "id:" 2,
-    "title:" "Project 3 ",
-    "topic":{ 
-                "id": 2, 
-                "name": "Web development" 
-              }
-    "stage": "In progress",
-    "repository": "https://gitlab.com/",
-    "purpose": "For a better life" ,
-    "owner": "Tzafilkos",
-    "skills": [{ 
-                  "id": 1, 
-                  "name": "Metal" 
-                },
-                { 
-                  "id": 4, 
-                  "name": "Trance" 
-                }],
-  },
-  {
-    "id:" 3,
-    "title:" "Project 4 ",
-    "topic":{ 
-                "id": 3, 
-                "name": "Game development" 
-              }
-    "stage": "In progress",
-    "repository": "https://gitlab.com/",
-    "purpose": "For a better life" ,
-    "owner": "Pegias",
-    "skills": [{ 
-                  "id": 1, 
-                  "name": "Metal" 
-                },
-                { 
-                  "id": 4, 
-                  "name": "Trance" 
-                },
-              { 
-                  "id": 5, 
-                  "name": "Folk dance" 
-                }],
-  },
- "user": {
-  "id": 0,
-  "name": "Nomikos Kampourakis",
- " projects": [{
-                "id:" 2,
-                "title:" "Project 3 ",
-                "topic":{ 
-                            "id": 2, 
-                            "name": "Web development" 
-                          }
-                "stage": "In progress",
-                "repository": "https://gitlab.com/",
-                "purpose": "For a better life" ,
-                "owner": "Tzafilkos",
-                "skills": [{ 
-                              "id": 1, 
-                              "name": "Metal" 
-                            },
-                            { 
-                              "id": 4, 
-                              "name": "Trance" 
-                            }],
-              },
-              {
-                "id:" 3,
-                "title:" "Project 4 ",
-                "topic":{ 
-                            "id": 3, 
-                            "name": "Game development" 
-                          }
-                "stage": "In progress",
-                "repository": "https://gitlab.com/",
-                "purpose": "For a better life" ,
-                "owner": "Pegias",
-                "skills": [{ 
-                              "id": 1, 
-                              "name": "Metal" 
-                            },
-                            { 
-                              "id": 4, 
-                              "name": "Trance" 
-                            },
-                          { 
-                              "id": 5, 
-                              "name": "Folk dance" 
-                            }],
-                  }
-  ],
-  "skills": [{ 
-      "id": 0, 
-      "name": "Rock" 
-    },
-    { 
-      "id": 1, 
-      "name": "Metal" 
-    },
-    { 
-      "id": 2, 
-      "name": "Dance" 
-    },
-    { 
-      "id": 3, 
-      "name": "House Music" 
-    }],
-  "aboutMe":
-    "AEK Athens:Established in Athens, in 1924 by Greek refugees from Constantinople, AEK is one of the three most successful teams in Greek football, winning 30 national titles and the only one to have won all the competitions organised by the Hellenic Football Federation.",
-}
+	"skills": [{
+			"id": 0,
+			"name": "Rock"
+		},
+		{
+			"id": 1,
+			"name": "Metal"
+		},
+		{
+			"id": 2,
+			"name": "Dance"
+		},
+		{
+			"id": 3,
+			"name": "House Music"
+		},
+		{
+			"id": 4,
+			"name": "Trance"
+		},
+		{
+			"id": 5,
+			"name": "Folk dance"
+		},
+		{
+			"id": 6,
+			"name": "Jazz"
+		}
+	],
+	"topics": [{
+			"id": 0,
+			"name": "Music"
+		},
+		{
+			"id": 1,
+			"name": "Film"
+		},
+		{
+			"id": 2,
+			"name": "Web development"
+		},
+		{
+			"id": 3,
+			"name": "Game development"
+		}
+	],
+	"translations": [{
+		"id": 1,
+		"username": "dewaldels",
+		"translations": [
+			"hello world",
+			"react is fun"
+		]
+	}],
+	"projects": [{
+			"id": 0,
+			"title": "Project 1",
+			"topic": {
+				"id": 0,
+				"name": "Music"
+			},
+			"stage": "Completed",
+			"repository": "https://gitlab.com/",
+			"purpose": "For a better life",
+			"owner": "Tripodis",
+			"skills": [{
+					"id": 0,
+					"name": "Rock"
+				},
+				{
+					"id": 1,
+					"name": "Metal"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"title": "Project 2",
+			"topic": {
+				"id": 1,
+				"name": "Film"
+			},
+			"stage": "In progress",
+			"repository": "https://gitlab.com/",
+			"purpose": "For a better life",
+			"owner": "Nomikos",
+			"skills": [{
+					"id": 2,
+					"name": "Dance"
+				},
+				{
+					"id": 3,
+					"name": "House music"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Project 3",
+			"topic": {
+				"id": 2,
+				"name": "Web development"
+			},
+			"stage": "In progress",
+			"repository": "https://gitlab.com/",
+			"purpose": "For a better life",
+			"owner": "Tzafilkos",
+			"skills": [{
+					"id": 1,
+					"name": "Metal"
+				},
+				{
+					"id": 4,
+					"name": "Trance"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Project 4",
+			"topic": {
+				"id": 3,
+				"name": "Game development"
+			},
+			"stage": "In progress",
+			"repository": "https://gitlab.com/",
+			"purpose": "For a better life",
+			"owner": "Pegias",
+			"skills": [{
+					"id": 1,
+					"name": "Metal"
+				},
+				{
+					"id": 4,
+					"name": "Trance"
+				},
+				{
+					"id": 5,
+					"name": "Folk dance"
+				}
+			]
+		}
+	],
+	"user": {
+		"id": 0,
+		"name": "Nomikos Kampourakis",
+		" projects": [{
+				"id": 2,
+				"title": "Project 3",
+				"topic": {
+					"id": 2,
+					"name": "Web development"
+				},
+				"stage": "In progress",
+				"repository": "https://gitlab.com/",
+				"purpose": "For a better life",
+				"owner": "Tzafilkos",
+				"skills": [{
+						"id": 1,
+						"name": "Metal"
+					},
+					{
+						"id": 4,
+						"name": "Trance"
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "Project 4",
+				"topic": {
+					"id": 3,
+					"name": "Game development"
+				},
+				"stage": "In progress",
+				"repository": "https://gitlab.com/",
+				"purpose": "For a better life",
+				"owner": "Pegias",
+				"skills": [{
+						"id": 1,
+						"name": "Metal"
+					},
+					{
+						"id": 4,
+						"name": "Trance"
+					},
+					{
+						"id": 5,
+						"name": "Folk dance"
+					}
+				]
+			}
+		],
+		"skills": [{
+				"id": 0,
+				"name": "Rock"
+			},
+			{
+				"id": 1,
+				"name": "Metal"
+			},
+			{
+				"id": 2,
+				"name": "Dance"
+			},
+			{
+				"id": 3,
+				"name": "House Music"
+			}
+		],
+		"aboutMe": "AEK Athens:Established in Athens, in 1924 by Greek refugees from Constantinople, AEK is one of the three most successful teams in Greek football, winning 30 national titles and the only one to have won all the competitions organised by the Hellenic Football Federation."
+	}
 }
