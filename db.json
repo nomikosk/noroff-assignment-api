@@ -72,7 +72,30 @@
 					"id": 1,
 					"name": "Metal"
 				}
-			]
+			],
+			messages:[{
+				      id:1,
+				      name:"nomikos",
+				      text:"hello tripodis!",
+				      date:""
+				    },
+				    {
+				      id:2,
+				      name:"tripodis",
+				      text:"hello nomikos!",
+				      date:""
+				    },
+				    {
+				      id:3,
+				      name:"nomikos",
+				      text:"how are you?",
+				      date:""
+				    },{
+				      id:4,
+				      name:"tripodis",
+				      text:"fine mate!",
+				      date:""
+				    }]
 		},
 		{
 			"id": 1,
@@ -93,7 +116,8 @@
 					"id": 3,
 					"name": "House music"
 				}
-			]
+			],
+			messages:[]
 		},
 		{
 			"id": 2,
@@ -114,7 +138,8 @@
 					"id": 4,
 					"name": "Trance"
 				}
-			]
+			],
+			messages:[]
 		},
 		{
 			"id": 3,
@@ -139,7 +164,8 @@
 					"id": 5,
 					"name": "Folk dance"
 				}
-			]
+			],
+			messages:[]
 		}
 	],
 	"user": [{
