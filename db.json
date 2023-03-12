@@ -73,28 +73,17 @@
 					"name": "Metal"
 				}
 			],
-			messages:[{
-				      id:1,
-				      name:"nomikos",
-				      text:"hello tripodis!",
-				      date:""
+			"messages":[{
+				      "id":1,
+				      "user":"nomikos",
+				      "text":"hello tripodis!",
+				      "date":""
 				    },
 				    {
-				      id:2,
-				      name:"tripodis",
-				      text:"hello nomikos!",
-				      date:""
-				    },
-				    {
-				      id:3,
-				      name:"nomikos",
-				      text:"how are you?",
-				      date:""
-				    },{
-				      id:4,
-				      name:"tripodis",
-				      text:"fine mate!",
-				      date:""
+				      "id":2,
+				      "user":"tripodis",
+				      "text":"hello nomikos!",
+				      "date":""
 				    }]
 		},
 		{
@@ -117,7 +106,7 @@
 					"name": "House music"
 				}
 			],
-			messages:[]
+			"messages":[]
 		},
 		{
 			"id": 2,
@@ -139,7 +128,7 @@
 					"name": "Trance"
 				}
 			],
-			messages:[]
+			"messages":[]
 		},
 		{
 			"id": 3,
@@ -165,7 +154,7 @@
 					"name": "Folk dance"
 				}
 			],
-			messages:[]
+			"messages":[]
 		}
 	],
 	"user": [{
@@ -236,5 +225,18 @@
 			}
 		],
 		"aboutMe": "AEK Athens:Established in Athens, in 1924 by Greek refugees from Constantinople, AEK is one of the three most successful teams in Greek football, winning 30 national titles and the only one to have won all the competitions organised by the Hellenic Football Federation."
-	}]
+	}],
+	"messages"=[{
+	
+			"id":1,
+			"user":"nomikos",
+			"text":"hello tripodis!",
+			"date":""
+		},
+		{
+			"id":2,
+			"user":"tripodis",
+			"text":"hello nomikos!",
+			"date":""
+		}]
 }
