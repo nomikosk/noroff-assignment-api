@@ -45,14 +45,6 @@
 			"name": "Game development"
 		}
 	],
-	"translations": [{
-		"id": 1,
-		"username": "dewaldels",
-		"translations": [
-			"hello world",
-			"react is fun"
-		]
-	}],
 	"projects": [{
 			"id": 0,
 			"title": "Project 1",
@@ -63,7 +55,7 @@
 			"stage": "Completed",
 			"repository": "https://gitlab.com/",
 			"purpose": "For a better life",
-			"owner": "Tripodis",
+			"admin": "Tripodis",
 			"skills": [{
 					"id": 0,
 					"name": "Rock"
@@ -84,7 +76,9 @@
 				      "user":"tripodis",
 				      "text":"hello nomikos!",
 				      "date":""
-				    }]
+				    }],
+			"members":[]
+				
 		},
 		{
 			"id": 1,
@@ -96,7 +90,7 @@
 			"stage": "In progress",
 			"repository": "https://gitlab.com/",
 			"purpose": "For a better life",
-			"owner": "Nomikos",
+			"admin": "Nomikos",
 			"skills": [{
 					"id": 2,
 					"name": "Dance"
@@ -106,7 +100,8 @@
 					"name": "House music"
 				}
 			],
-			"messages":[]
+			"messages":[],
+			"members":[]
 		},
 		{
 			"id": 2,
@@ -118,7 +113,7 @@
 			"stage": "In progress",
 			"repository": "https://gitlab.com/",
 			"purpose": "For a better life",
-			"owner": "Tzafilkos",
+			"admin": "Tzafilkos",
 			"skills": [{
 					"id": 1,
 					"name": "Metal"
@@ -128,7 +123,8 @@
 					"name": "Trance"
 				}
 			],
-			"messages":[]
+			"messages":[],
+			"members":["Nomikos Kampourakis"]
 		},
 		{
 			"id": 3,
@@ -140,7 +136,7 @@
 			"stage": "In progress",
 			"repository": "https://gitlab.com/",
 			"purpose": "For a better life",
-			"owner": "Pegias",
+			"admin": "Pegias",
 			"skills": [{
 					"id": 1,
 					"name": "Metal"
@@ -154,7 +150,8 @@
 					"name": "Folk dance"
 				}
 			],
-			"messages":[]
+			"messages":[],
+			"members":["Nomikos Kampourakis"]
 		}
 	],
 	"user": [{
@@ -170,7 +167,7 @@
 				"stage": "In progress",
 				"repository": "https://gitlab.com/",
 				"purpose": "For a better life",
-				"owner": "Tzafilkos",
+				"admin": "Tzafilkos",
 				"skills": [{
 						"id": 1,
 						"name": "Metal"
@@ -191,7 +188,7 @@
 				"stage": "In progress",
 				"repository": "https://gitlab.com/",
 				"purpose": "For a better life",
-				"owner": "Pegias",
+				"admin": "Pegias",
 				"skills": [{
 						"id": 1,
 						"name": "Metal"
