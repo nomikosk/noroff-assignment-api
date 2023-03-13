@@ -67,13 +67,13 @@
 			],
 			"messages":[{
 				      "id":1,
-				      "user":"nomikos",
+				      "user":"Nomikos Kampourakis",
 				      "text":"hello tripodis!",
 				      "date":""
 				    },
 				    {
 				      "id":2,
-				      "user":"tripodis",
+				      "user":"Tripodis",
 				      "text":"hello nomikos!",
 				      "date":""
 				    }],
@@ -90,7 +90,7 @@
 			"stage": "In progress",
 			"repository": "https://gitlab.com/",
 			"purpose": "For a better life",
-			"admin": "Nomikos",
+			"admin": "Nomikos Kampourakis",
 			"skills": [{
 					"id": 2,
 					"name": "Dance"
@@ -157,52 +157,9 @@
 	"user": [{
 		"id": 0,
 		"name": "Nomikos Kampourakis",
-		"projects": [{
-				"id": 2,
-				"title": "Project 3",
-				"topic": {
-					"id": 2,
-					"name": "Web development"
-				},
-				"stage": "In progress",
-				"repository": "https://gitlab.com/",
-				"purpose": "For a better life",
-				"admin": "Tzafilkos",
-				"skills": [{
-						"id": 1,
-						"name": "Metal"
-					},
-					{
-						"id": 4,
-						"name": "Trance"
-					}
-				]
-			},
-			{
-				"id": 3,
-				"title": "Project 4",
-				"topic": {
-					"id": 3,
-					"name": "Game development"
-				},
-				"stage": "In progress",
-				"repository": "https://gitlab.com/",
-				"purpose": "For a better life",
-				"admin": "Pegias",
-				"skills": [{
-						"id": 1,
-						"name": "Metal"
-					},
-					{
-						"id": 4,
-						"name": "Trance"
-					},
-					{
-						"id": 5,
-						"name": "Folk dance"
-					}
-				]
-			}
+		"projects": [
+  {"id": 0, "title": "Project 1", "topic": {"id": 0, "name": "Music" }, "stage": "Completed", "repository": "https://gitlab.com/", "purpose": "For a better life", "admin": "Tripodis", "skills": [{"id": 0, "name": "Rock" }, {"id": 1, "name": "Metal" } ], "messages": [{"id": 1, "user": "nomikos", "text": "hello tripodis!", "date": "" }, {"id": 2, "user": "tripodis", "text": "hello nomikos!", "date": "" } ], "members": [] },
+  {"id": 1, "title": "Project 2", "topic": {"id": 1, "name": "Film" }, "stage": "In progress", "repository": "https://gitlab.com/", "purpose": "For a better life", "admin": "Nomikos Kampourakis", "skills": [{"id": 2, "name": "Dance" }, {"id": 3, "name": "House music" } ], "messages": [], "members": [] },
 		],
 		"skills": [{
 				"id": 0,
@@ -226,13 +183,13 @@
 	"messages":[{
 	
 			"id":1,
-			"name":"nomikos",
+			"name":"Nomikos Kampourakis",
 			"text":"hello tripodis!",
 			"date":""
 		},
 		{
 			"id":2,
-			"name":"tripodis",
+			"name":"Tripodis",
 			"text":"hello nomikos!",
 			"date":""
 		}]
