@@ -124,7 +124,7 @@
 				}
 			],
 			"messages":[],
-			"members":["Nomikos Kampourakis"]
+			"members":[{"name":"Nomikos Kampourakis"}]
 		},
 		{
 			"id": 3,
@@ -151,7 +151,7 @@
 				}
 			],
 			"messages":[],
-			"members":["Nomikos Kampourakis"]
+			"members":[{"name":"Nomikos Kampourakis"}]
 		}
 	],
 	"user": [{
