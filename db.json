@@ -1,196 +1,291 @@
 {
-	"skills": [{
-			"id": 0,
-			"name": "Rock"
-		},
-		{
-			"id": 1,
-			"name": "Metal"
-		},
-		{
-			"id": 2,
-			"name": "Dance"
-		},
-		{
-			"id": 3,
-			"name": "House Music"
-		},
-		{
-			"id": 4,
-			"name": "Trance"
-		},
-		{
-			"id": 5,
-			"name": "Folk dance"
-		},
-		{
-			"id": 6,
-			"name": "Jazz"
-		}
-	],
-	"topics": [{
-			"id": 0,
-			"name": "Music"
-		},
-		{
-			"id": 1,
-			"name": "Film"
-		},
-		{
-			"id": 2,
-			"name": "Web development"
-		},
-		{
-			"id": 3,
-			"name": "Game development"
-		}
-	],
-	"projects": [{
-			"id": 0,
-			"title": "Project 1",
-			"topic": {
-				"id": 0,
-				"name": "Music"
-			},
-			"stage": "Completed",
-			"repository": "https://gitlab.com/",
-			"purpose": "For a better life",
-			"admin": "Tripodis",
-			"skills": [{
-					"id": 0,
-					"name": "Rock"
-				},
-				{
-					"id": 1,
-					"name": "Metal"
-				}
-			],
-			"messages":[{
-				      "id":1,
-				      "user":"Nomikos Kampourakis",
-				      "text":"hello tripodis!",
-				      "date":""
-				    },
-				    {
-				      "id":2,
-				      "user":"Tripodis",
-				      "text":"hello nomikos!",
-				      "date":""
-				    }],
-			"members":[]
-				
-		},
-		{
-			"id": 1,
-			"title": "Project 2",
-			"topic": {
-				"id": 1,
-				"name": "Film"
-			},
-			"stage": "In progress",
-			"repository": "https://gitlab.com/",
-			"purpose": "For a better life",
-			"admin": "Nomikos Kampourakis",
-			"skills": [{
-					"id": 2,
-					"name": "Dance"
-				},
-				{
-					"id": 3,
-					"name": "House music"
-				}
-			],
-			"messages":[],
-			"members":[]
-		},
-		{
-			"id": 2,
-			"title": "Project 3",
-			"topic": {
-				"id": 2,
-				"name": "Web development"
-			},
-			"stage": "In progress",
-			"repository": "https://gitlab.com/",
-			"purpose": "For a better life",
-			"admin": "Tzafilkos",
-			"skills": [{
-					"id": 1,
-					"name": "Metal"
-				},
-				{
-					"id": 4,
-					"name": "Trance"
-				}
-			],
-			"messages":[],
-			"members":[{"name":"Nomikos Kampourakis"}]
-		},
-		{
-			"id": 3,
-			"title": "Project 4",
-			"topic": {
-				"id": 3,
-				"name": "Game development"
-			},
-			"stage": "In progress",
-			"repository": "https://gitlab.com/",
-			"purpose": "For a better life",
-			"admin": "Pegias",
-			"skills": [{
-					"id": 1,
-					"name": "Metal"
-				},
-				{
-					"id": 4,
-					"name": "Trance"
-				},
-				{
-					"id": 5,
-					"name": "Folk dance"
-				}
-			],
-			"messages":[],
-			"members":[{"name":"Nomikos Kampourakis"}]
-		}
-	],
-	"user": [{
-		"id": 0,
-		"name": "Nomikos Kampourakis",
-		"projects": [
-  {"id": 0, "title": "Project 1", "topic": {"id": 0, "name": "Music" }, "stage": "Completed", "repository": "https://gitlab.com/", "purpose": "For a better life", "admin": "Tripodis", "skills": [{"id": 0, "name": "Rock" }, {"id": 1, "name": "Metal" } ], "messages": [{"id": 1, "user": "nomikos", "text": "hello tripodis!", "date": "" }, {"id": 2, "user": "tripodis", "text": "hello nomikos!", "date": "" } ], "members": [] },
-  {"id": 1, "title": "Project 2", "topic": {"id": 1, "name": "Film" }, "stage": "In progress", "repository": "https://gitlab.com/", "purpose": "For a better life", "admin": "Nomikos Kampourakis", "skills": [{"id": 2, "name": "Dance" }, {"id": 3, "name": "House music" } ], "messages": [], "members": [] },
-		],
-		"skills": [{
-				"id": 0,
-				"name": "Rock"
-			},
-			{
-				"id": 1,
-				"name": "Metal"
-			},
-			{
-				"id": 2,
-				"name": "Dance"
-			},
-			{
-				"id": 3,
-				"name": "House Music"
-			}
-		],
-		"aboutMe": "AEK Athens:Established in Athens, in 1924 by Greek refugees from Constantinople, AEK is one of the three most successful teams in Greek football, winning 30 national titles and the only one to have won all the competitions organised by the Hellenic Football Federation."
-	}],
-	"messages":[{
-	
-			"id":1,
-			"name":"Nomikos Kampourakis",
-			"text":"hello tripodis!",
-			"date":""
-		},
-		{
-			"id":2,
-			"name":"Tripodis",
-			"text":"hello nomikos!",
-			"date":""
-		}]
+   "skills":[
+      {
+         "id":0,
+         "name":"Rock"
+      },
+      {
+         "id":1,
+         "name":"Metal"
+      },
+      {
+         "id":2,
+         "name":"Dance"
+      },
+      {
+         "id":3,
+         "name":"House Music"
+      },
+      {
+         "id":4,
+         "name":"Trance"
+      },
+      {
+         "id":5,
+         "name":"Folk dance"
+      },
+      {
+         "id":6,
+         "name":"Jazz"
+      }
+   ],
+   "topics":[
+      {
+         "id":0,
+         "name":"Music"
+      },
+      {
+         "id":1,
+         "name":"Film"
+      },
+      {
+         "id":2,
+         "name":"Web development"
+      },
+      {
+         "id":3,
+         "name":"Game development"
+      }
+   ],
+   "projects":[
+      {
+         "id":0,
+         "title":"Project 1",
+         "topic":{
+            "id":0,
+            "name":"Music"
+         },
+         "stage":"Completed",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Tripodis",
+         "skills":[
+            {
+               "id":0,
+               "name":"Rock"
+            },
+            {
+               "id":1,
+               "name":"Metal"
+            }
+         ],
+         "messages":[
+            {
+               "id":1,
+               "user":"Nomikos Kampourakis",
+               "text":"hello tripodis!",
+               "date":""
+            },
+            {
+               "id":2,
+               "user":"Tripodis",
+               "text":"hello nomikos!",
+               "date":""
+            }
+         ],
+         "members":[
+            
+         ]
+      },
+      {
+         "id":1,
+         "title":"Project 2",
+         "topic":{
+            "id":1,
+            "name":"Film"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Nomikos Kampourakis",
+         "skills":[
+            {
+               "id":2,
+               "name":"Dance"
+            },
+            {
+               "id":3,
+               "name":"House music"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            
+         ]
+      },
+      {
+         "id":2,
+         "title":"Project 3",
+         "topic":{
+            "id":2,
+            "name":"Web development"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Tzafilkos",
+         "skills":[
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":4,
+               "name":"Trance"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            {
+               "name":"Nomikos Kampourakis"
+            }
+         ]
+      },
+      {
+         "id":3,
+         "title":"Project 4",
+         "topic":{
+            "id":3,
+            "name":"Game development"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Pegias",
+         "skills":[
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":4,
+               "name":"Trance"
+            },
+            {
+               "id":5,
+               "name":"Folk dance"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            {
+               "name":"Nomikos Kampourakis"
+            }
+         ]
+      }
+   ],
+   "user":[
+      {
+         "id":0,
+         "name":"Nomikos Kampourakis",
+         "projects":[
+            {
+               "id":0,
+               "title":"Project 1",
+               "topic":{
+                  "id":0,
+                  "name":"Music"
+               },
+               "stage":"Completed",
+               "repository":"https://gitlab.com/",
+               "purpose":"For a better life",
+               "admin":"Tripodis",
+               "skills":[
+                  {
+                     "id":0,
+                     "name":"Rock"
+                  },
+                  {
+                     "id":1,
+                     "name":"Metal"
+                  }
+               ],
+               "messages":[
+                  {
+                     "id":1,
+                     "user":"nomikos",
+                     "text":"hello tripodis!",
+                     "date":""
+                  },
+                  {
+                     "id":2,
+                     "user":"tripodis",
+                     "text":"hello nomikos!",
+                     "date":""
+                  }
+               ],
+               "members":[
+                  
+               ]
+            },
+            {
+               "id":1,
+               "title":"Project 2",
+               "topic":{
+                  "id":1,
+                  "name":"Film"
+               },
+               "stage":"In progress",
+               "repository":"https://gitlab.com/",
+               "purpose":"For a better life",
+               "admin":"Nomikos Kampourakis",
+               "skills":[
+                  {
+                     "id":2,
+                     "name":"Dance"
+                  },
+                  {
+                     "id":3,
+                     "name":"House music"
+                  }
+               ],
+               "messages":[
+                  
+               ],
+               "members":[
+                  
+               ]
+            }
+         ],
+         "skills":[
+            {
+               "id":0,
+               "name":"Rock"
+            },
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":2,
+               "name":"Dance"
+            },
+            {
+               "id":3,
+               "name":"House Music"
+            }
+         ],
+         "aboutMe":"AEK Athens:Established in Athens, in 1924 by Greek refugees from Constantinople, AEK is one of the three most successful teams in Greek football, winning 30 national titles and the only one to have won all the competitions organised by the Hellenic Football Federation."
+      }
+   ],
+   "messages":[
+      {
+         "id":1,
+         "name":"nomikos",
+         "text":"hello tripodis!",
+         "date":""
+      },
+      {
+         "id":2,
+         "name":"tripodis",
+         "text":"hello nomikos!",
+         "date":""
+      }
+   ]
 }
