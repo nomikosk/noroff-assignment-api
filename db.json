@@ -178,6 +178,210 @@
                "name":"Nomikos Kampourakis"
             }
          ]
+      },
+      {
+         "id":4,
+         "title":"Project 5",
+         "topic":{
+            "id":3,
+            "name":"Music"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Nomikos",
+         "skills":[
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":4,
+               "name":"Trance"
+            },
+            {
+               "id":5,
+               "name":"Folk dance"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            {
+               "name":"Tripodis"
+            }
+         ]
+      },
+            {
+         "id":5,
+         "title":"Project 6",
+         "topic":{
+            "id":3,
+            "name":"Music"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Nomikos",
+         "skills":[
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":4,
+               "name":"Trance"
+            },
+            {
+               "id":5,
+               "name":"Folk dance"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            {
+               "name":"Tripodis"
+            }
+         ]
+      },
+            {
+         "id":6,
+         "title":"Project 7",
+         "topic":{
+            "id":3,
+            "name":"Music"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Nomikos",
+         "skills":[
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":4,
+               "name":"Trance"
+            },
+            {
+               "id":5,
+               "name":"Folk dance"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            {
+               "name":"Tripodis"
+            }
+         ]
+      },
+                  {
+         "id":8,
+         "title":"Project 9",
+         "topic":{
+            "id":3,
+            "name":"Music"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Nomikos",
+         "skills":[
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":4,
+               "name":"Trance"
+            },
+            {
+               "id":5,
+               "name":"Folk dance"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            {
+               "name":"Tripodis"
+            }
+         ]
+      },
+                  {
+         "id":9,
+         "title":"Project 10",
+         "topic":{
+            "id":3,
+            "name":"Music"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Nomikos",
+         "skills":[
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":4,
+               "name":"Trance"
+            },
+            {
+               "id":5,
+               "name":"Folk dance"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            {
+               "name":"Tripodis"
+            }
+         ]
+      },
+                  {
+         "id":10,
+         "title":"Project 11",
+         "topic":{
+            "id":3,
+            "name":"Music"
+         },
+         "stage":"In progress",
+         "repository":"https://gitlab.com/",
+         "purpose":"For a better life",
+         "admin":"Nomikos",
+         "skills":[
+            {
+               "id":1,
+               "name":"Metal"
+            },
+            {
+               "id":4,
+               "name":"Trance"
+            },
+            {
+               "id":5,
+               "name":"Folk dance"
+            }
+         ],
+         "messages":[
+            
+         ],
+         "members":[
+            {
+               "name":"Tripodis"
+            }
+         ]
       }
    ],
    "user":[
