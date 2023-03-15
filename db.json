@@ -793,113 +793,118 @@
       {
          "id":1,
          "name":"Tripodis",
-         "projects":[ {
-         "id":0,
-         "title":"Project 1",
-         "topic":{
-            "id":0,
-            "name":"Music"
-         },
-         "stage":"Completed",
-         "repository":"https://gitlab.com/",
-         "purpose":"For a better life",
-         "admin":"Tripodis",
-         "skills":[
+         "projects":[
             {
                "id":0,
-               "name":"Rock"
+               "title":"Project 1",
+               "topic":{
+                  "id":0,
+                  "name":"Music"
+               },
+               "stage":"Completed",
+               "repository":"https://gitlab.com/",
+               "purpose":"For a better life",
+               "admin":"Tripodis",
+               "skills":[
+                  {
+                     "id":0,
+                     "name":"Rock"
+                  },
+                  {
+                     "id":1,
+                     "name":"Metal"
+                  }
+               ],
+               "aboutMe":"Thrule thee mou Olympiake mou"
             },
             {
-               "id":1,
-               "name":"Metal"
-            }],
-          "aboutMe":"Thrule thee mou Olympiake mou"
-      },
-      {
-         "id":2,
-         "name":"Tzafilkos",
-         "projects":[
-         {
-         "id":2,
-         "title":"Project 3",
-         "topic":{
-            "id":2,
-            "name":"Web development"
-         },
-         "stage":"In progress",
-         "repository":"https://gitlab.com/",
-         "purpose":"For a better life",
-         "admin":"Tzafilkos",
-         "skills":[
-            {
-               "id":1,
-               "name":"Metal"
+               "id":2,
+               "name":"Tzafilkos",
+               "projects":[
+                  {
+                     "id":2,
+                     "title":"Project 3",
+                     "topic":{
+                        "id":2,
+                        "name":"Web development"
+                     },
+                     "stage":"In progress",
+                     "repository":"https://gitlab.com/",
+                     "purpose":"For a better life",
+                     "admin":"Tzafilkos",
+                     "skills":[
+                        {
+                           "id":1,
+                           "name":"Metal"
+                        },
+                        {
+                           "id":4,
+                           "name":"Trance"
+                        }
+                     ],
+                     "messages":[
+                        
+                     ],
+                     "members":[
+                        {
+                           "name":"Nomikos Kampourakis"
+                        }
+                     ],
+                     "requests":[
+                        
+                     ]
+                  }
+               ],
+               "skills":[
+                  {
+                     "id":0,
+                     "name":"Rock"
+                  }
+               ],
+               "aboutMe":"Hello world"
             },
             {
-               "id":4,
-               "name":"Trance"
+               "id":3,
+               "name":"Pegias",
+               "projects":[
+                  
+               ],
+               "skills":[
+                  {
+                     "id":0,
+                     "name":"Rock"
+                  }
+               ],
+               "aboutMe":"Hello world 2"
             }
          ],
          "messages":[
-            
-         ],
-         "members":[
             {
-               "name":"Nomikos Kampourakis"
+               "id":1,
+               "name":"nomikos",
+               "text":"hello tripodis!",
+               "date":""
+            },
+            {
+               "id":2,
+               "name":"tripodis",
+               "text":"hello nomikos!",
+               "date":""
             }
          ],
          "requests":[
-            
+            {
+               "id":1,
+               "user_id":1,
+               "User_name":"Tripodis"
+            },
+            {
+               "id":2,
+               "name":"tripodis",
+               "user_id":1,
+               "User_name":"Tripodis"
+            }
          ]
-      }
-         ],
-         "skills":[
-            {
-               "id":0,
-               "name":"Rock"
-            }],
-          "aboutMe":"Hello world"
-      },
-      {
-         "id":3,
-         "name":"Pegias",
-         "projects":[],
-         "skills":[
-            {
-               "id":0,
-               "name":"Rock"
-            }],
-          "aboutMe":"Hello world 2"
-      }
-            
-   ],
-   "messages":[
-      {
-         "id":1,
-         "name":"nomikos",
-         "text":"hello tripodis!",
-         "date":""
-      },
-      {
-         "id":2,
-         "name":"tripodis",
-         "text":"hello nomikos!",
-         "date":""
-      }
-   ],
-   "requests":[
-      {
-         "id":1,
-         "user_id":1,
-         "User_name":"Tripodis"
-      },
-      {
-         "id":2,
-         "name":"tripodis",
-         "user_id":1,
-         "User_name":"Tripodis"
       }
    ]
 }
-      ]
-      }
