@@ -385,10 +385,10 @@
       },
       {
          "id":10,
-         "title":"Project 11",
+         "title":"Our film's music 11",
          "topic":{
             "id":3,
-            "name":"Music"
+            "name":"Film"
          },
          "stage":"In progress",
          "repository":"https://gitlab.com/",
