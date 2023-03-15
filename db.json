@@ -85,6 +85,9 @@
          ],
          "members":[
             
+         ],
+         "requests":[
+            
          ]
       },
       {
@@ -113,6 +116,13 @@
          ],
          "members":[
             
+         ],
+         "requests":[
+            {
+               "id":0,
+               "user_id":1,
+               "User_name":"Tripodis"
+            }
          ]
       },
       {
@@ -143,6 +153,9 @@
             {
                "name":"Nomikos Kampourakis"
             }
+         ],
+         "requests":[
+            
          ]
       },
       {
@@ -177,6 +190,9 @@
             {
                "name":"Nomikos Kampourakis"
             }
+         ],
+         "requests":[
+            
          ]
       },
       {
@@ -210,6 +226,13 @@
          "members":[
             {
                "name":"Tripodis"
+            }
+         ],
+         "requests":[
+            {
+               "id":0,
+               "user_id":1,
+               "User_name":"Tripodis"
             }
          ]
       },
@@ -245,6 +268,9 @@
             {
                "name":"Tripodis"
             }
+         ],
+         "requests":[
+            
          ]
       },
       {
@@ -279,6 +305,9 @@
             {
                "name":"Tripodis"
             }
+         ],
+         "requests":[
+            
          ]
       },
       {
@@ -313,6 +342,9 @@
             {
                "name":"Tripodis"
             }
+         ],
+         "requests":[
+            
          ]
       },
       {
@@ -347,6 +379,9 @@
             {
                "name":"Tripodis"
             }
+         ],
+         "requests":[
+            
          ]
       },
       {
@@ -381,6 +416,9 @@
             {
                "name":"Tripodis"
             }
+         ],
+         "requests":[
+            
          ]
       },
       {
@@ -415,6 +453,9 @@
             {
                "name":"Tripodis"
             }
+         ],
+         "requests":[
+            
          ]
       }
    ],
@@ -762,6 +803,19 @@
          "name":"tripodis",
          "text":"hello nomikos!",
          "date":""
+      }
+   ],
+   "requests":[
+      {
+         "id":1,
+         "user_id":1,
+         "User_name":"Tripodis"
+      },
+      {
+         "id":2,
+         "name":"tripodis",
+         "user_id":1,
+         "User_name":"Tripodis"
       }
    ]
 }
